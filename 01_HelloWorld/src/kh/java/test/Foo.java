@@ -1,8 +1,7 @@
-
 package kh.java.test;
 
-import kh.java.test.other.Other;
 
+import kh.java.test.other.Other;
 import java.util.Date;
 import java.util.*; //Java.util 패키지의 모든 클래스를 import
 
@@ -13,7 +12,7 @@ public class Foo {
 		//객체레시피
 		//클래스 -> 객체 -> 메소드호출
 		//같은 클래스의 메소드
-		Foo foo = new Foo(); 
+		Foo foo = new Foo();
 		foo.test1();
 		
 		//다른 클래스의 메소드
@@ -32,7 +31,7 @@ public class Foo {
 		System.out.println(now);
 		
 		ArrayList al = new ArrayList();
-		System.out.println(al);
+		
 	}
 	
 	public void test1() {
